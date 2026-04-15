@@ -1,0 +1,60 @@
+{
+    "__JSON__": true,
+    "AUTHOR": "Vince",
+    "theme": "Jarvis_Md",
+    "LANGUAGE": "English",
+    "LANGCODE": "en",
+    "STRINGS": {
+        "updater": {
+            "UPDATE": "*_Your bot is Already up-to-date_*",
+            "NEW_UPDATE": "*it's time to update the bot!*\n*Changes:*\n",
+            "UPDATED_LOCAL": "*Updated Successfully !*"
+        },
+        "global": {
+            "botName": " Jarvis-Md",
+            "body": "WhatsApp Bot by Vince",
+            "greet2" : "Thanks To Vince",
+            "pic1": "",
+            "pic2": "",
+            "pic3": "",
+            "pic4": "",
+            "pic5": "",
+            "pic6": "",
+            "pic7": "",
+            "pic8": "",
+            "pic9": "",
+            "pic10": "",
+            "greet" : "At your service.",
+            "dotbody" : "Jarvis online. How can I assist?",
+            "emojii" : "🤖",
+            "promote": "Admin Role Granted",
+            "pmallow": "*Hi, this is Vince's bot — Jarvis-Md.\nYou have been blocked for spamming.*",
+            "pmwarn": "*Hi!*\nPlease don't spam or I'll block you.\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ Jarvis-Md*",
+            "permited": "Hi\n\nYou are now permitted to PM.\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ Jarvis-Md*",
+            "revoked" : "*Hi*\nYour PM permit has been revoked.\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ Jarvis-Md*",
+            "demote": "Admin Role Removed",
+            "antlink": "Link Detected.\n*_Access Denied_*",
+            "session": "*This is your session.json — keep it safe.*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ Jarvis-Md*",
+            "mention": "Please mention the Bot Owner",
+            "title": "Jarvis-Md",
+            "theme": "Jarvis_Md",
+            "footer": "Vince | Jarvis-Md",
+            "by": "Made by: Vince",
+            "chat_desc": "Options Available: 1. mute\n2. unmute\n3. archive\n4. unarchive\n5. read\n6. unread\n7. delete",
+            "success": "Done ✓",
+            "dot": "Hi, did you mean *.help?*\nJarvis is standing by.",
+            "couple_male": "*I'm pretty sure I can't live without being helped!*",
+            "couple_female": "*I'm pretty sure I can't live without being helped!*",
+            "admin": "ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ɪs ᴏɴʟʏ ғᴏʀ ɢʀᴏᴜᴘ ᴀᴅᴍɪɴ!",
+            "botAdmin": "ᴘʟᴇᴀsᴇ ɢɪᴠᴇ ᴍᴇ ᴀᴅᴍɪɴ ʀᴏʟᴇ!",
+            "owner": "ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ɪs ᴏɴʟʏ ғᴏʀ ᴍʏ ᴏᴡɴᴇʀ!",
+            "group": "ᴛʜɪs ғᴇᴀᴛᴜʀᴇ ɪs ᴏɴʟʏ ғᴏʀ ɢʀᴏᴜᴘs!",
+            "private": "ᴛʜɪs ғᴇᴀᴛᴜʀᴇ ɪs ᴏɴʟʏ ғᴏʀ ᴍʏ ᴏᴡɴᴇʀ!",
+            "bot": "ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ɪs ᴏɴʟʏ ғᴏʀ ᴍʏ ᴏᴡɴᴇʀ!",
+            "wait": "ᴘʀᴏᴄᴇssɪɴɢ ʏᴏᴜʀ ʀᴇQᴜᴇsᴛ"
+        },
+        "error": {
+            "text": "*_Nice try — but Jarvis can't be tampered with._*\nPlease fix your request."
+        }
+    }
+  }

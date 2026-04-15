@@ -1,0 +1,134 @@
+{
+  "name": "Jarvis-Md WhatsApp Bot By Vince",
+  "description": "A WhatsApp Bot by Vince",
+  "logo": "",
+  "keywords": ["nodejs", "bot", "whatsapp bot"],
+  "success_url": "/",
+  "stack": "container",
+  "env": {
+    "OWNER_NAME": {
+      "description": "Bot Owner Name",
+      "value": "Vince"
+    },
+    "HEROKU_API_KEY": {
+      "description": "Your Heroku Api Key",
+      "value": "",
+      "required": true
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Your Heroku App Name (same as above)",
+      "value": ""
+    },
+    "PREFIX": {
+      "description": "Command prefix for the bot",
+      "value": "."
+    },
+    "OWNER_NUMBER": {
+      "description": "Your phone number in international format without + (e.g. 2348012345678)",
+      "value": ""
+    },
+    "SESSION_ID": {
+      "description": "Your WhatsApp SESSION_ID"
+    },
+    "THUMB_IMAGE": {
+      "description": "Thumbnail image URL for bot",
+      "value": ""
+    },
+    "ANTILINK_VALUES": {
+      "description": "Words to trigger antilink detection",
+      "value": "chat.whatsapp.com",
+      "required": false
+    },
+    "AUTO_READ_STATUS": {
+      "description": "Set true to auto-view WhatsApp statuses",
+      "required": false,
+      "value": "false"
+    },
+    "MSGS_IN_LOG": {
+      "description": "Set true to see messages in console",
+      "required": false,
+      "value": "false"
+    },
+    "READ_MESSAGE": {
+      "description": "Set false to stop bot from auto-reading messages",
+      "required": false,
+      "value": "false"
+    },
+    "DISABLE_PM": {
+      "description": "Disable bot in private messages",
+      "value": "false",
+      "required": false
+    },
+    "ALWAYS_ONLINE": {
+      "description": "Show bot as Always Online on WhatsApp",
+      "value": "false",
+      "required": false
+    },
+    "OPENAI_API_KEY": {
+      "description": "OpenAI API key for ChatGPT features (get from beta.openai.com)",
+      "value": "",
+      "required": false
+    },
+    "WELCOME_MESSAGE": {
+      "description": "Message shown when a new user joins a group",
+      "value": "@user welcome to @gname — Jarvis is here!",
+      "required": false
+    },
+    "MONGODB_URI": {
+      "description": "MongoDB connection string",
+      "value": "",
+      "required": true
+    },
+    "WORKTYPE": {
+      "description": "Bot mode: use 'public' or 'private'",
+      "value": "private"
+    },
+    "AUTO_REACTION": {
+      "description": "Set true to react to commands with emoji",
+      "value": "true",
+      "required": false
+    },
+    "PACK_NAME": {
+      "description": "Sticker pack name",
+      "value": "Jarvis-Md",
+      "required": false
+    },
+    "PACK_AUTHER": {
+      "description": "Sticker author name",
+      "value": "Vince",
+      "required": false
+    },
+    "TIME_ZONE": {
+      "description": "Your timezone (e.g. Africa/Lagos, America/New_York)",
+      "value": "Africa/Lagos"
+    },
+    "MZTIT": {
+      "description": "Bot title shown in menus",
+      "value": "Jarvis-Md"
+    },
+    "GNAME": {
+      "description": "Support group name",
+      "value": "Jarvis-Md-sᴜᴘᴘᴏʀᴛ",
+      "required": false
+    },
+    "WAURL": {
+      "description": "Your WhatsApp support group link",
+      "value": "",
+      "required": false
+    },
+    "BOT_NAME": {
+      "description": "Bot display name",
+      "value": "Jarvis-Md"
+    },
+    "REMOVE_BG_KEY": {
+      "description": "Remove.bg API key for background removal feature",
+      "value": "",
+      "required": false
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql"
+    }
+  ]
+}
